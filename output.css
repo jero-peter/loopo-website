@@ -818,6 +818,10 @@ video {
   height: 12rem;
 }
 
+.h-7{
+  height: 1.75rem;
+}
+
 .max-h-\[100vh\]{
   max-height: 100vh;
 }
@@ -860,6 +864,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-7{
+  width: 1.75rem;
 }
 
 .min-w-\[250px\]{
@@ -906,6 +914,10 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .items-start{
@@ -1233,6 +1245,10 @@ video {
 
 .bg-no-repeat{
   background-repeat: no-repeat;
+}
+
+.fill-white{
+  fill: #fff;
 }
 
 .p-1{
@@ -1610,6 +1626,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:block{
+  display: block;
+}
+
 .group:hover .group-hover\:rotate-180{
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1623,6 +1643,10 @@ video {
 .group:hover .group-hover\:bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:fill-red-600{
+  fill: #dc2626;
 }
 
 .group:hover .group-hover\:text-green-300{
@@ -1688,6 +1712,11 @@ video {
     line-height: 2.25rem;
   }
 
+  .sm\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .sm\:ring-1{
     --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
     --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -1710,6 +1739,10 @@ video {
 
   .md\:w-3\/5{
     width: 60%;
+  }
+
+  .md\:w-4\/5{
+    width: 80%;
   }
 
   .md\:min-w-\[450px\]{
