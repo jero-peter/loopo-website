@@ -8,108 +8,108 @@
 </head>
 
 <body class="font-space bg-primary text-white">
-    <header class="">
-        <nav class="mx-auto flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div class="flex lg:flex-1">
-            <a href="/" class="-m-1.5 p-1.5">
-              <span class="sr-only">Loopo</span>
-              <img class="h-10 w-auto" src="./assets/images/Loopo_Large Dark BG.png" alt="" />
-            </a>
-          </div>
-          <div class="flex lg:hidden">
-            <button type="button" class="mobile-menu-button -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-              <span class="sr-only">Open main menu</span>
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+  <header class="">
+    <nav class="mx-auto flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="/" class="-m-1.5 p-1.5">
+          <span class="sr-only">Loopo</span>
+          <img class="h-10 w-auto" src="./assets/images/Loopo_Large Dark BG.png" alt="" />
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button type="button" class="mobile-menu-button -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Open main menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:items-center lg:justify-center lg:gap-x-20">
+        <div class="hidden lg:flex lg:justify-center lg:gap-x-12">
+          <a href="/" class="text-sm font-semibold leading-6 hover:text-green-300">Home</a>
+          <div class="group relative">
+            <button type="button" class="flex items-center gap-x-1 text-sm font-semibold leading-6 group-hover:text-green-300" aria-expanded="false">
+              UseCase
+              <svg class="h-5 w-5 flex-none text-gray-400 transition-all group-hover:rotate-180 group-hover:text-green-300 group-hover:delay-200 group-hover:ease-linear" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
               </svg>
             </button>
+            <div class="absolute left-1/2 z-10 w-56 max-w-max -translate-x-1/2 invisible opacity-0 group-hover:visible pt-3 transform group-hover:opacity-100 transition-all duration-300 ease-in-out">
+              <div class="flex-col rounded-lg bg-white p-4 text-sm leading-6 text-black shadow-lg ring-1 ring-gray-900/5">
+                <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
+                  <a href="./detials.html" class="font-semibold hover:text-blue-700 ">Digital Marketer </a>
+                </div>
+                <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
+                  <a href="./lead&sales.html" class="font-semibold hover:text-blue-700 ">Lead Gen & Sales</a>
+                </div>
+                <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
+                  <a href="./contentCreator.html" class="font-semibold hover:text-blue-700 ">Content Creator</a>
+                </div>
+                <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
+                  <a href="./data&businessAnalaysis.html" class="font-semibold hover:text-blue-700 ">Data & Business Analysis</a>
+                </div>
+                <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
+                  <a href="./developer.html" class="font-semibold hover:text-blue-700 ">Developer </a>
+                </div>
+                <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
+                  <a href="./legal.html" class="font-semibold hover:text-blue-700 ">Legal</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="hidden lg:flex lg:items-center lg:justify-center lg:gap-x-20">
-            <div class="hidden lg:flex lg:justify-center lg:gap-x-12">
-              <a href="/" class="text-sm font-semibold leading-6 hover:text-green-300">Home</a>
-              <div class="group relative">
-                <button type="button" class="flex items-center gap-x-1 text-sm font-semibold leading-6 group-hover:text-green-300" aria-expanded="false">
+          <a href="/" class="text-sm font-semibold leading-6 hover:text-green-300">Plans</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-center">
+          <a href="#" class="rounded-full border border-red-600 from-pink-600 to-purple-700 px-6 py-4 text-sm font-semibold leading-6 text-red-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:text-white">Buy Now</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mobile-menu hidden text-black" role="dialog" aria-modal="true" id="mobile">
+      <div class="fixed inset-0 z-10"></div>
+      <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="./assets/images/Loopo_Large Light BG.png" alt="" />
+          </a>
+          <button type="button" class="mobile-close-button -m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Home</a>
+              <div class="-mx-3">
+                <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
                   UseCase
-                  <svg class="h-5 w-5 flex-none text-gray-400 transition-all group-hover:rotate-180 group-hover:text-green-300 group-hover:delay-200 group-hover:ease-linear" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                   </svg>
                 </button>
-                <div class="absolute left-1/2 z-10 w-56 max-w-max -translate-x-1/2 invisible opacity-0 group-hover:visible pt-3 transform group-hover:opacity-100 transition-all duration-300 ease-in-out">
-                  <div class="flex-col rounded-lg bg-white p-4 text-sm leading-6 text-black shadow-lg ring-1 ring-gray-900/5">
-                    <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
-                      <a href="/detials.html" class="font-semibold hover:text-blue-700 ">Digital Marketer </a>
-                    </div>
-                    <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
-                      <a href="/lead&sales.html" class="font-semibold hover:text-blue-700 ">Lead Gen & Sales</a>
-                    </div>
-                    <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
-                      <a href="/contentCreator.html" class="font-semibold hover:text-blue-700 ">Content Creator</a>
-                    </div>
-                    <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
-                      <a href="/data&businessAnalaysis.html" class="font-semibold hover:text-blue-700 ">Data & Business Analysis</a>
-                    </div>
-                    <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
-                      <a href="/developer.html" class="font-semibold hover:text-blue-700 ">Developer </a>
-                    </div>
-                    <div class="p-2 hover:translate-x-2 transform hover:delay-100 hover:ease-linear">
-                      <a href="/legal.html" class="font-semibold hover:text-blue-700 ">Legal</a>
-                    </div>
-                  </div>
+                <div class="mt-2 space-y-2" id="disclosure-1">
+                  <a href="/detials.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Digital Marketer </a>
+                  <a href="lead&sales.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Lead Gen & Sales</a>
+                  <a href="/contentCreator.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Content Creator</a>
+                  <a href="/data&businessAnalaysis.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Data & Business Analysis</a>
+                  <a href="/developer.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Developer </a>
+                  <a href="/legal.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Legal</a>
                 </div>
               </div>
-              <a href="/" class="text-sm font-semibold leading-6 hover:text-green-300">Plans</a>
+              <a href="/plans" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Plans</a>
             </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-center">
-              <a href="#" class="rounded-full border border-red-600 from-pink-600 to-purple-700 px-6 py-4 text-sm font-semibold leading-6 text-red-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:text-white">Buy Now</a>
-            </div>
-          </div>
-        </nav>
-    
-        <div class="mobile-menu hidden text-black" role="dialog" aria-modal="true" id="mobile">
-          <div class="fixed inset-0 z-10"></div>
-          <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div class="flex items-center justify-between">
-              <a href="#" class="-m-1.5 p-1.5">
-                <span class="sr-only">Your Company</span>
-                <img class="h-8 w-auto" src="./assets/images/Loopo_Large Light BG.png" alt="" />
-              </a>
-              <button type="button" class="mobile-close-button -m-2.5 rounded-md p-2.5 text-gray-700">
-                <span class="sr-only">Close menu</span>
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            <div class="mt-6 flow-root">
-              <div class="-my-6 divide-y divide-gray-500/10">
-                <div class="space-y-2 py-6">
-                  <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Home</a>
-                  <div class="-mx-3">
-                    <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
-                      UseCase
-                      <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-                      </svg>
-                    </button>
-                    <div class="mt-2 space-y-2" id="disclosure-1">
-                      <a href="/detials.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Digital Marketer </a>
-                      <a href="lead&sales.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Lead Gen & Sales</a>
-                      <a href="/contentCreator.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Content Creator</a>
-                      <a href="/data&businessAnalaysis.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Data & Business Analysis</a>
-                      <a href="/developer.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Developer </a>
-                      <a href="/legal.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-gray-50">Legal</a>
-                    </div>
-                  </div>
-                  <a href="/plans" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Plans</a>
-                </div>
-                <div class="py-6">
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-gray-50">Buy Now</a>
-                </div>
-              </div>
+            <div class="py-6">
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-gray-50">Buy Now</a>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </div>
+  </header>
   <section class="pb-10">
     <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% py-28">
       <div class="flex items-center justify-center">
@@ -230,7 +230,7 @@
     <div class="flex items-center justify-center px-4 sm:px-32 md:px-40">
       <div class="">
         <div class="flex flex-col gap-4 text-left">
-          <h2 class="text-2xl font-bold sm:text-3xl md:text-5xl">Digital Marketer</h2>
+          <h2 class="text-2xl font-bold sm:text-3xl md:text-5xl">Data & Business Analysis</h2>
           <div class="py-5">
             <p class="text-base leading-7">Analyses the speaker's face and gaze during a video conversation to maintain eye contact before changing the camera position. io at a later time. Clear, consistent, and professional voices for marketing, explainer, product, and YouTube videos.</p>
             <p class="my-5 text-base leading-7">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt.</p>
