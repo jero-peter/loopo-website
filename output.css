@@ -1454,6 +1454,10 @@ video {
   text-align: center;
 }
 
+.align-middle{
+  vertical-align: middle;
+}
+
 .font-space{
   font-family: Space Grotesk;
 }
@@ -1523,6 +1527,22 @@ video {
 
 .leading-7{
   line-height: 1.75rem;
+}
+
+.leading-loose{
+  line-height: 2;
+}
+
+.leading-12{
+  line-height: 3rem;
+}
+
+.leading-\[60px\]{
+  line-height: 60px;
+}
+
+.leading-8{
+  line-height: 2rem;
 }
 
 .text-\[\#5d6f96\]{
@@ -1910,6 +1930,10 @@ video {
 
   .md\:font-semibold{
     font-weight: 600;
+  }
+
+  .md\:leading-\[60px\]{
+    line-height: 60px;
   }
 }
 
